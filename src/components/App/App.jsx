@@ -29,7 +29,7 @@ function App() {
 
   const [input, setInput] = useState("");
 
-  const visibleUsers = users.filter((user) =>
+  const handleUsers = users.filter((user) =>
     user.name.toLowerCase().includes(input.toLowerCase())
   );
 
@@ -48,7 +48,7 @@ function App() {
       <h1 className={css.p}>Phonebook</h1>
       <ContactForm addUser={addUser} />
       <SearchBox value={input} index={setInput} />
-      <ContactList items={visibleUsers} onReset={deleteUser} />
+      <ContactList items={handleUsers} onReset={deleteUser} />
     </div>
   );
 }
