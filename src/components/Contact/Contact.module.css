@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px; 
+  border: 1px solid #212121;
+  border-radius: 10px;
+}
+
+.button {
+  border-radius: 15px;
+  border: 1px solid lightgray;
+  background-color: white;
+  cursor: pointer;
+  transition: border 150ms ease-in;
+  height: 30px;
+  width: 70px;
+}
+.button:hover {
+  border: 1px solid orangered;
+}
+.item {
+  margin-left: 5px;
+}

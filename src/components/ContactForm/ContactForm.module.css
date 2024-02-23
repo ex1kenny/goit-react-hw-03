@@ -1,0 +1,39 @@
+.button {
+  display: block;
+  height: 36px;
+  width: 100px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: border 150ms ease-in;
+  border: 1px solid lightgray;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.button:hover {
+  border: 1px solid whitesmoke;
+}
+
+.error {
+  color: orangered;
+  display: block;
+}
+
+.field {
+  margin-left: 15px;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 200px;
+  border: 1px solid #212121;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+.container {
+  border: 1px solid #212121;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+}
